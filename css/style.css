@@ -60,15 +60,6 @@ body {
    color: var(--black);
 }
 
-.dark-mode {
-   background-color: #191C1D;
-   color: var(--white);
-}
-
-/* .dark-icon {
-   color: var(--white);
-} */
-
 body.active {
    padding-left: 35rem;
 }
@@ -373,10 +364,12 @@ section {
    line-height: 2;
 }
 
+.project-name {
+   padding: 0 5px;
+}
+
 .box {
    position: relative;
-   /* width:300px;
-   height:400px; */
 }
 
 .block {
@@ -405,7 +398,7 @@ section {
 }
 
 .my-cv {
-   padding-bottom: 100px;
+   padding-bottom: 150px;
 }
 
 .download-cv {
