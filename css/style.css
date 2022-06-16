@@ -386,11 +386,23 @@ section {
    display: block;
 }
 
+.box-tech {
+   padding: 20px;
+   max-width: 400px;
+   /* display: flex; */
+   margin: 70px auto;
+}
 
-.box,
+.box-tech h3 {
+   font-size: 24px;
+   padding: 20px 0;
+}
+
+.li .box,
 .name,
 .description,
-.download-cv {
+.download-cv,
+.box-tech {
    -webkit-box-shadow: rgba(74 43 56 / 24%) 0px 7px 29px 0px;
    box-shadow: rgba(74 43 56 / 24%) 0px 7px 29px 0px;
    border-radius: 10px;
@@ -409,6 +421,12 @@ section {
 .list {
    font-size: 15px;
    margin-left: 15px;
+}
+
+.list-tech {
+   font-size: 15px;
+   margin-left: 15px;
+   list-style-type: none;
 }
 
 .services .box-container {
