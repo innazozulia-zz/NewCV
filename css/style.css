@@ -543,25 +543,26 @@ section {
    color: var(--grey);
 }
 
-
+/* animation  */
+/* 
 body {
    margin: 0;
    padding: 0;
    background-color: #59a9f4;
    overflow-x: hidden;
    overflow-y: hidden;
-}
+} */
 
 
-
+/* 
 .boxx {
    position: fixed;
    top: 0;
    transform: rotate(80deg);
    left: 0;
-}
+} */
 
-.wave {
+/* .wave {
    position: fixed;
    top: 0;
    left: 0;
@@ -583,9 +584,9 @@ body {
    animation: drift 7500ms infinite linear;
    position: fixed;
    background-color: #77daff;
-}
+} */
 
-.wave.-two {
+/* .wave.-two {
    animation: drift 3000ms infinite linear;
    opacity: .1;
    background: black;
@@ -601,9 +602,9 @@ body {
    height: 100%;
    z-index: 11;
    transform: translate3d(0, 0, 0);
-}
+} */
 
-@keyframes drift {
+/* @keyframes drift {
    from {
       transform: rotate(0deg);
    }
@@ -611,10 +612,10 @@ body {
    from {
       transform: rotate(360deg);
    }
-}
+} */
 
 
-.contain {
+/* .contain {
    animation-delay: 4s;
    z-index: 1000;
    position: fixed;
@@ -643,10 +644,10 @@ body {
    width: 100px;
    height: 100px;
    margin: 0 5px;
-}
+} */
 
 /*Animation*/
-.icon:nth-child(2) img {
+/* .icon:nth-child(2) img {
    -webkit-animation-delay: 0.2s;
    animation-delay: 0.2s
 }
@@ -673,9 +674,9 @@ body {
       -webkit-transform: scale(0, 0) rotateZ(-90deg);
       transform: scale(0, 0) rotateZ(-90deg);
       opacity: 0
-   }
+   } */
 
-   30% {
+/* 30% {
       -webkit-transform: scale(1, 1) rotateZ(0deg);
       transform: scale(1, 1) rotateZ(0deg);
       opacity: 1
@@ -692,9 +693,9 @@ body {
       transform: scale(0, 0) rotateZ(90deg);
       opacity: 0
    }
-}
+} */
 
-@keyframes anim {
+/* @keyframes anim {
    0% {
       -webkit-transform: scale(0, 0) rotateZ(-90deg);
       transform: scale(0, 0) rotateZ(-90deg);
@@ -718,7 +719,7 @@ body {
       transform: scale(0, 0) rotateZ(90deg);
       opacity: 0
    }
-}
+} */
 
 @media (max-width:991px) {
 
